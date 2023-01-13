@@ -8,13 +8,18 @@
 }
 
 body {
-    width: auto;
-    margin: 20px 50px;
     background-image: url("./img/background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center top;
     font-family: 'Quantico Regular';
+}
+
+header,
+main {
+    width: auto;
+    margin: 20px 50px;
 }
 
 header {
